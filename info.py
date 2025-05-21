@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '23631217'))
 API_HASH = environ.get('API_HASH', '567c6df308dc6901790309499f729d12') 
-BOT_TOKEN = environ.get('BOT_TOKEN', "") 
+BOT_TOKEN = environ.get('BOT_TOKEN', "7477277308:AAHeCf5z5ErCBhPY_JMfvgqiZL7MWH9NE-w") 
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -35,7 +35,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # FSUB
-auth_channel = environ.get('AUTH_CHANNEL', '-1002232443823')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002528229701')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 # Set to False inside the bracket if you don't want to use Request Channel else set it to Channel ID
 REQ_CHANNEL = environ.get("REQ_CHANNEL", '-1002232443823')
